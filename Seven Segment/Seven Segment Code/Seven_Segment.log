@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"F:\B.Sc Engg. Course (CSE)\4-2\Interfacing & Microcontroller\Lab\Seven Segment\Seven Segment Code\Seven_Segment.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"F:\B.Sc Engg. Course (CSE)\4-2\Interfacing & Microcontroller\Lab\Seven Segment\Seven Segment Code\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Seven_Segment.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Seven_Segment.c
+diagnostics: 13	123	Compiled Successfully	Seven_Segment.c
+diagnostics: 0	127	All files Compiled in 125 ms	 
+hint: 0	1144	Used RAM (bytes): 12 (3%)  Free RAM (bytes): 340 (97%)	Used RAM (bytes): 12 (3%)  Free RAM (bytes): 340 (97%)
+hint: 0	1144	Used ROM (program words): 64 (1%)  Free ROM (program words): 8128 (99%)	Used ROM (program words): 64 (1%)  Free ROM (program words): 8128 (99%)
+diagnostics: 0	125	Project Linked Successfully	Seven_Segment.mcppi
+diagnostics: 0	128	Linked in 0 ms	 
+diagnostics: 0	129	Project 'Seven_Segment.mcppi' completed: 141 ms	 
+diagnostics: 0	103	Finished successfully: 01 Jul 2022, 11:15:48	Seven_Segment.mcppi
