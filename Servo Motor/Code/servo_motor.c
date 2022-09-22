@@ -45,5 +45,6 @@ Delay_ms(2000);
 Rotation90(); //90 Degree
 Delay_ms(2000);
 Rotation180(); //180 Degree
+Delay_ms(2000);
 }while(1);
 }
