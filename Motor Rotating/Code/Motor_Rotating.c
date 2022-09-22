@@ -8,8 +8,6 @@ void main() {
               portc.f0=0xff;
               portc.f1=0x00;
               }
-              
-     
      }
 
 }

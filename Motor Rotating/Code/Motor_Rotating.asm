@@ -20,9 +20,9 @@ L_main0:
 	BCF        PORTC+0, 1
 ;Motor_Rotating.c,10 :: 		}
 L_main2:
-;Motor_Rotating.c,13 :: 		}
+;Motor_Rotating.c,11 :: 		}
 	GOTO       L_main0
-;Motor_Rotating.c,15 :: 		}
+;Motor_Rotating.c,13 :: 		}
 L_end_main:
 	GOTO       $+0
 ; end of _main
