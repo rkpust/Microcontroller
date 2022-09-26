@@ -54,7 +54,7 @@ L_main0:
 	MOVWF      main_temp_L0+2
 	MOVF       R0+3, 0
 	MOVWF      main_temp_L0+3
-;temperature.c,30 :: 		lcd_out(1,1,"Temp = ");
+;temperature.c,30 :: 		lcd_out(1,1,"Temp =");
 	MOVLW      1
 	MOVWF      FARG_Lcd_Out_row+0
 	MOVLW      1
@@ -78,15 +78,15 @@ L_main0:
 	MOVLW      _display+0
 	MOVWF      FARG_Lcd_Out_CP_text+0
 	CALL       _Lcd_Out_CP+0
-;temperature.c,33 :: 		lcd_chr(1,16,223); //print at pos(row=1,col=13) "°" =223 =0xdf
+;temperature.c,33 :: 		lcd_chr(1,15,223); //print at pos(row=1,col=13) "°" =223 =0xdf
 	MOVLW      1
 	MOVWF      FARG_Lcd_Chr_row+0
-	MOVLW      16
+	MOVLW      15
 	MOVWF      FARG_Lcd_Chr_column+0
 	MOVLW      223
 	MOVWF      FARG_Lcd_Chr_out_char+0
 	CALL       _Lcd_Chr+0
-;temperature.c,34 :: 		lcd_out_cp(" C"); //celcius
+;temperature.c,34 :: 		lcd_out_cp("C"); //celcius
 	MOVLW      ?lstr2_temperature+0
 	MOVWF      FARG_Lcd_Out_CP_text+0
 	CALL       _Lcd_Out_CP+0

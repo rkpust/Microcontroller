@@ -27,10 +27,10 @@ while(1)
 result=adc_read(0);
 volt=result*4.88;
 temp=volt/10;
-lcd_out(1,1,"Temp = ");
+lcd_out(1,1,"Temp =");
 floattostr(temp,display);
 lcd_out_cp(display);
-lcd_chr(1,16,223); //print at pos(row=1,col=13) "°" =223 =0xdf
-lcd_out_cp(" C"); //celcius
+lcd_chr(1,15,223); //print at pos(row=1,col=13) "°" =223 =0xdf
+lcd_out_cp("C"); //celcius
 }
 }

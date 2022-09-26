@@ -2,24 +2,24 @@
 void Rotation0()
 {
 unsigned int i;
-for(i=0;i<10;i++)
+for(i=0;i<50;i++)
 {
 PORTB.F0 = 1;
-Delay_us(80);
+delay_us(800);
 PORTB.F0 = 0;
-Delay_us(1920);
+delay_us(19200);
 }
 }
 
 void Rotation90()
 {
 unsigned int i;
-for(i=0;i<100;i++)
+for(i=0;i<50;i++)
 {
 PORTB.F0 = 1;
-Delay_us(150);
+delay_us(1500);
 PORTB.F0 = 0;
-Delay_us(1850);
+delay_us(18500);
 }
 }
 
@@ -27,12 +27,12 @@ void Rotation180()
 
 {
 unsigned int i;
-for(i=0;i<10;i++)
+for(i=0;i<50;i++)
 {
 PORTB.F0 = 1;
-Delay_us(220);
+delay_us(2200);
 PORTB.F0 = 0;
-Delay_us(1780);
+delay_us(17800);
 }
 }
 
@@ -42,9 +42,10 @@ TRISB = 0;
 do
 {
 Rotation0();
-Delay_ms(2000);
+delay_ms(2000);
 Rotation90();
-Delay_ms(2000);
+delay_ms(2000);
 Rotation180();
+delay_ms(2000);
 }while(1);
 }
