@@ -6,7 +6,7 @@ Value=0
 [BUILD_TYPE]
 Value=0
 [ACTIVE_TAB]
-Value=..\..\Servo Motor\Code\servo_motor.c
+Value=Motor_Rotating.c
 [USE_EEPROM]
 Value=0
 [USE_HEAP]
@@ -25,9 +25,8 @@ Count=0
 ActiveImageIndex=-1
 [OPENED_FILES]
 File0=Motor_Rotating.c
-File1=..\..\Servo Motor\Code\servo_motor.c
-File2=..\..\..\ADC\Code\acd.c
-Count=3
+File1=.\C:\Users\RK\Downloads\Iterfacing_and_Microcontroller_Lab-main\DC_Motor_From_Sir\dc_motor.c
+Count=2
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
